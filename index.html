@@ -4,30 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>Personal webpage</title>
 </head>
 <body>
-    <section>
-        <h1>Luis Hernan Mesajil Lopez</h1>
-        <div>
-            <h2>About me</h2>
-            <p>Hi, my name is Luis Mesajil. I'm currently studing in my final year of Computer Engineering in Lima, Peru. My professional goal is to become a full-stack developer and start my first intership in the industry.</p>
-        </div>
-        <div>
-            <h2>My hobbies</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo voluptatibus, ex eum possimus rerum labore quae ab incidunt consequatur, maiores itaque? Perspiciatis culpa nam ipsa tempora vel magnam non ad.</p>
-        </div>
-        <div>
-            <h2>My top three favorite places</h2>
-            <a href="">
-                <div>
-                    <img src="" alt="">
-                </div>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, provident. Nam dignissimos dolorem, at commodi obcaecati repudiandae ipsa excepturi ducimus eveniet debitis, natus aliquid facere, numquam quo! Nam, sit asperiores?
-                </p>
-            </a>     
-        </div>
-    </section>
+    <div class="container">
+        <main class="main">
+            <header class="banner">
+                <h1 class="banner__title">Luis Hernan Mesajil Lopez</h1>
+            </header>
+            <section class="about">
+                <h2 class="about__title">About me</h2>
+                <p class="about__desc">Hi, my name is Luis Mesajil. I'm currently studing in my final year of Computer Engineering in Lima, Peru. My professional goal is to become a full-stack developer and start my first intership in the industry.</p>
+            </section>
+            <section class="hobbies">
+                <h2 class="hobbies__title">My hobbies</h2>
+                <ul class="hobbies__grid">
+                    <li class="hobbies__grid-item">
+                        <article class="hobbies__item">
+                            <div class="hobbies__graphic"></div>
+                            <div class="hobbies__body">
+                                <h2 class="hobbies__title">Reading</h2>
+                                <p class="hobbies__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo voluptatibus, ex eum possimus rerum labore quae ab incidunt consequatur, maiores itaque? Perspiciatis culpa nam ipsa tempora vel magnam non ad.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="hobbies__grid-item">
+                        <article class="hobbies__item">
+                            <div class="hobbies__graphic"></div>
+                            <div class="hobbies__body">
+                                <h2 class="hobbies__title">Create audiovisual material</h2>
+                                <p class="hobbies__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo voluptatibus, ex eum possimus rerum labore quae ab incidunt consequatur, maiores itaque? Perspiciatis culpa nam ipsa tempora vel magnam non ad.</p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="hobbies__grid-item">
+                        <article class="hobbies__item">
+                            <div class="hobbies__graphic"></div>
+                            <div class="hobbies__body">
+                                <h2 class="hobbies__title">Playing soccer</h2>
+                                <p class="hobbies__desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo voluptatibus, ex eum possimus rerum labore quae ab incidunt consequatur, maiores itaque? Perspiciatis culpa nam ipsa tempora vel magnam non ad.</p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+            <section class="favorite-places">
+                <h2 class="favorite-places__title">My top three favorite places</h2>
+                <ul class="favorite-places__grid">
+                    <li class="favorite-places__grid_item">
+                        <article class="favorite-places__item">
+                            <div class="favorite-places__graphic">
+                            </div>
+                            <div class="favorite-places__body">
+                                <h2 class="favorite-places__title">Lima, Peru</h2>
+                                <p class="favorite-places__desc">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, provident. Nam dignissimos dolorem, at commodi obcaecati repudiandae ipsa excepturi ducimus eveniet debitis, natus aliquid facere, numquam quo! Nam, sit asperiores?
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="favorite-places__grid_item">
+                        <article class="favorite-places__item">
+                            <div class="favorite-places__graphic">
+                            </div>
+                            <div class="favorite-places__body">
+                                <h2 class="favorite-places__title">Ayacucho, Peru</h2>
+                                <p class="favorite-places__desc">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, provident. Nam dignissimos dolorem, at commodi obcaecati repudiandae ipsa excepturi ducimus eveniet debitis, natus aliquid facere, numquam quo! Nam, sit asperiores?
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="favorite-places__grid_item">
+                        <article class="favorite-places__item">
+                            <div class="favorite-places__graphic">
+                            </div>
+                            <div class="favorite-places__body">
+                                <h2 class="favorite-places__title">University, Peru</h2>
+                                <p class="favorite-places__desc">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae, provident. Nam dignissimos dolorem, at commodi obcaecati repudiandae ipsa excepturi ducimus eveniet debitis, natus aliquid facere, numquam quo! Nam, sit asperiores?
+                                </p>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>

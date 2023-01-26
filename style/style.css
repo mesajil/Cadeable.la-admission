@@ -1,0 +1,70 @@
+.container {
+    
+    /* box-model */
+
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+    
+    margin: 0 15%;
+}
+
+
+.hobbies__grid {
+    /* remove default settings */
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    /* box-model */
+
+    margin: 0 2%;
+}
+
+.hobbies__item {
+    
+
+    /* box-model */
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+
+    margin: 1% 0;
+}
+
+.favorite-places__grid {
+
+    /* remove default settings */
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    /* display */
+
+    display: flex;
+
+    /* box-model */
+
+    margin: 0 2%;
+}
+
+.favorite-places__item {
+    
+    /* display */
+
+
+    /* box-sizing */
+
+
+    /* box-model */
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 20px;
+
+    margin: 1% 1%;
+}
